@@ -1,0 +1,317 @@
+# Compile of GBDT_incompleto.vhd was successful.
+# Compile of gbdt_test.vhd was successful.
+# Compile of memoriaROM_128x16.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 22:29:35 on Feb 20,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.gbdt(behavioral)
+# Loading work.reg(behavioral)
+# Loading work.memoriarom_128x16(behavioral)
+# Loading work.mux8_1(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/testbench/uut/Done
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: user  Hostname: DESKTOP-3E39I9N  ProcessID: 10820
+#           Attempting to use alternate WLF file "./wlft214dcc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft214dcc
+add wave -position insertpoint  \
+sim:/testbench/uut/Start
+add wave -position insertpoint  \
+sim:/testbench/uut/Dout
+add wave -position insertpoint  \
+sim:/testbench/uut/state
+add wave -position insertpoint  \
+sim:/testbench/uut/next_state
+add wave -position insertpoint  \
+sim:/testbench/uut/internal_done
+add wave -position insertpoint  \
+sim:/testbench/uut/load_addr
+add wave -position insertpoint  \
+sim:/testbench/uut/load_output
+add wave -position insertpoint  \
+sim:/testbench/uut/Trees_finished
+add wave -position insertpoint  \
+sim:/testbench/uut/node_type
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/testbench/uut/addition
+# Compile of GBDT_incompleto.vhd was successful.
+# Compile of gbdt_test.vhd was successful.
+# Compile of memoriaROM_128x16.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench(behavior)
+# Loading work.gbdt(behavioral)
+# Loading work.reg(behavioral)
+# Loading work.memoriarom_128x16(behavioral)
+# Loading work.mux8_1(behavioral)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/testbench/uut/leaf_value
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/testbench/uut/addr_distance
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+run
+run
+run
+run
+# Compile of GBDT_incompleto.vhd was successful.
+# Compile of gbdt_test.vhd was successful.
+# Compile of memoriaROM_128x16.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+quit -sim
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+# End time: 22:47:34 on Feb 20,2024, Elapsed time: 0:17:59
+# Errors: 4, Warnings: 17
+# Compile of GBDT_incompleto.vhd was successful.
+# Compile of gbdt_test.vhd was successful.
+# Compile of memoriaROM_128x16.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 22:47:58 on Feb 20,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.gbdt(behavioral)
+# Loading work.reg(behavioral)
+# Loading work.memoriarom_128x16(behavioral)
+# Loading work.mux8_1(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/testbench/Dout
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: user  Hostname: DESKTOP-3E39I9N  ProcessID: 10820
+#           Attempting to use alternate WLF file "./wlft4qb12t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4qb12t
+add wave -position insertpoint  \
+sim:/testbench/Done
+add wave -position insertpoint  \
+sim:/testbench/clk
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/GBDT_ROM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/features_mux
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+# ** Error: Acs eeao
+#        Unable to replace existing ini file (C:/Users/user/Downloads/LSE_P2/LSE_P2.mpf).  File can not be renamed.
+# End time: 22:53:09 on Feb 20,2024, Elapsed time: 0:05:11
+# Errors: 2, Warnings: 19

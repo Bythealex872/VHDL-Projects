@@ -1,0 +1,232 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Downloads/Fuentes sesión acelerado ML-20240207/fuentes estudiantes
+Egbdt
+Z0 w1708465636
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 130
+Z6 dC:/Users/user/Downloads/LSE_P2
+Z7 8C:/Users/user/Downloads/LSE_P2/GBDT_incompleto.vhd
+Z8 FC:/Users/user/Downloads/LSE_P2/GBDT_incompleto.vhd
+l0
+Z9 L33 1
+V=_A7QBlag<c77:k^4^@3M1
+!s100 ^L<1ehk9k8VeRAl?mH2b90
+Z10 OV;C;2021.1;73
+32
+Z11 !s110 1708465657
+!i10b 1
+Z12 !s108 1708465657.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/user/Downloads/LSE_P2/GBDT_incompleto.vhd|
+Z14 !s107 C:/Users/user/Downloads/LSE_P2/GBDT_incompleto.vhd|
+!i113 1
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+DEx4 work 4 gbdt 0 22 =_A7QBlag<c77:k^4^@3M1
+!i122 130
+l84
+L46 132
+VAm@ePJZ6OTRKiOX:NjF6M3
+!s100 _gHQlRTkVG[nd;n]K=a_k0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ememoriarom_128x16
+Z17 w1707295915
+R1
+R3
+R2
+R4
+R5
+!i122 132
+R6
+Z18 8C:/Users/user/Downloads/LSE_P2/memoriaROM_128x16.vhd
+Z19 FC:/Users/user/Downloads/LSE_P2/memoriaROM_128x16.vhd
+l0
+R9
+VfoLWHf0ffB]MH2S=E16PI3
+!s100 d6:Gdd4O^fVBNSZU`Lgnn2
+R10
+32
+Z20 !s110 1708465658
+!i10b 1
+Z21 !s108 1708465658.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/user/Downloads/LSE_P2/memoriaROM_128x16.vhd|
+Z23 !s107 C:/Users/user/Downloads/LSE_P2/memoriaROM_128x16.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R1
+R3
+R2
+R4
+R5
+DEx4 work 17 memoriarom_128x16 0 22 foLWHf0ffB]MH2S=E16PI3
+!i122 132
+l85
+L42 48
+V]:[oAPKk7Bdo8H:Cj?nUd0
+!s100 :OTV97WH69dlCVgA70oRK2
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R15
+R16
+Emux8_1
+R17
+R1
+R4
+R5
+!i122 133
+R6
+Z24 8C:/Users/user/Downloads/LSE_P2/mux.vhd
+Z25 FC:/Users/user/Downloads/LSE_P2/mux.vhd
+l0
+L9 1
+VlWDF>FSR_WGjJ0:`M1zSY0
+!s100 enXRND25CD_g5XKfGMTO12
+R10
+32
+R20
+!i10b 1
+R21
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/user/Downloads/LSE_P2/mux.vhd|
+Z27 !s107 C:/Users/user/Downloads/LSE_P2/mux.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R1
+R4
+R5
+DEx4 work 6 mux8_1 0 22 lWDF>FSR_WGjJ0:`M1zSY0
+!i122 133
+l17
+L16 5
+V5c[>RE^3>K6nBWZA_0TAJ3
+!s100 4[]nkoc]=nc`eWBBBQ9P_1
+R10
+32
+R20
+!i10b 1
+R21
+R26
+R27
+!i113 1
+R15
+R16
+Ereg
+Z28 w1707295920
+R4
+R5
+!i122 134
+R6
+Z29 8C:/Users/user/Downloads/LSE_P2/reg.vhd
+Z30 FC:/Users/user/Downloads/LSE_P2/reg.vhd
+l0
+L8 1
+VK5LjIjP>jXeWin0lZ<gZg1
+!s100 n;KFN>o_XAF1o]HPX2P@_0
+R10
+32
+R20
+!i10b 1
+R21
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/user/Downloads/LSE_P2/reg.vhd|
+Z32 !s107 C:/Users/user/Downloads/LSE_P2/reg.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R4
+R5
+Z33 DEx4 work 3 reg 0 22 K5LjIjP>jXeWin0lZ<gZg1
+!i122 134
+l23
+Z34 L22 15
+Z35 VXJfWBcH@Gf@IPgLAOHM750
+Z36 !s100 ]kD4I7eTk@ToZLCE9[R1A0
+R10
+32
+R20
+!i10b 1
+R21
+R31
+R32
+!i113 1
+R15
+R16
+Etestbench
+R17
+R1
+R4
+R5
+!i122 131
+R6
+Z37 8C:/Users/user/Downloads/LSE_P2/gbdt_test.vhd
+Z38 FC:/Users/user/Downloads/LSE_P2/gbdt_test.vhd
+l0
+L7 1
+V@MLHcO;Uzhk>cPczFX4h<2
+!s100 E5:`7ea_eNYOUE@_LK2MY1
+R10
+32
+R11
+!i10b 1
+R12
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/user/Downloads/LSE_P2/gbdt_test.vhd|
+Z40 !s107 C:/Users/user/Downloads/LSE_P2/gbdt_test.vhd|
+!i113 1
+R15
+R16
+Abehavior
+R1
+R4
+R5
+DEx4 work 9 testbench 0 22 @MLHcO;Uzhk>cPczFX4h<2
+!i122 131
+l32
+L10 57
+V]k6b8lo>0>BoYTa[FP?4I0
+!s100 >Z@4l1oIJh0oc9Z[NZIh93
+R10
+32
+R11
+!i10b 1
+R12
+R39
+R40
+!i113 1
+R15
+R16

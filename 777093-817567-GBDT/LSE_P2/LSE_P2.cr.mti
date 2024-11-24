@@ -1,0 +1,49 @@
+C:/Users/user/Downloads/LSE_P2/gbdt_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/user/Downloads/LSE_P2/gbdt_test.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testbench
+-- Compiling architecture behavior of testbench
+
+} {} {}} C:/Users/user/Downloads/LSE_P2/memoriaROM_128x16.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/user/Downloads/LSE_P2/memoriaROM_128x16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity memoriaROM_128x16
+-- Compiling architecture Behavioral of memoriaROM_128x16
+
+} {} {}} C:/Users/user/Downloads/LSE_P2/GBDT_incompleto.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/user/Downloads/LSE_P2/GBDT_incompleto.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity gbdt
+-- Compiling architecture Behavioral of gbdt
+
+} {} {}} C:/Users/user/Downloads/LSE_P2/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/user/Downloads/LSE_P2/mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux8_1
+-- Compiling architecture Behavioral of mux8_1
+
+} {} {}} C:/Users/user/Downloads/LSE_P2/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/user/Downloads/LSE_P2/reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture Behavioral of reg
+
+} {} {}}
